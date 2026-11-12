@@ -1,1 +1,39 @@
-
+{
+    "assertionMethod": [
+        "did:web:cdpi-poc.github.io:cdpi-did"
+    ],
+    "service": [
+    ],
+    "id": "did:web:cdpi-poc.github.io:cdpi-did",
+    "verificationMethod": [
+        {
+            "publicKeyMultibase": "z6Mkgfo6jg8c2NCkd3ykJK9SeysTDuyMo9XCZbgprjpSnx5p",
+            "controller": "did:web:cdpi-poc.github.io:cdpi-did",
+            "id": "did:web:cdpi-poc.github.io:cdpi-did#IPVtKtuNZ4Yr1F9BV-V-9_u9NUMjdbCvjXXeQFUYJYA",
+            "type": "Ed25519VerificationKey2020",
+            "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
+        },
+        {
+            "publicKeyMultibase": "z6Mkq3FwNYgFspaS1YYWLp1pm6naSCm3NzycVd4J4XP2cutg",
+            "controller": "did:web:cdpi-poc.github.io:cdpi-did",
+            "id": "did:web:cdpi-poc.github.io:cdpi-did#oylpPRjD70GwHbBDcEtnK3-xC8jE37fpB2--b6YriZ0",
+            "type": "Ed25519VerificationKey2020",
+            "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
+        },
+        {
+            "publicKeyMultibase": "z6Mkq3FwNYgFspaS1YYWLp1pm6naSCm3NzycVd4J4XP2cutg",
+            "controller": "did:web:cdpi-poc.github.io:cdpi-did",
+            "id": "did:web:cdpi-poc.github.io:cdpi-did#qMHesQkUvHMD9xe5hH8OtamYMLaDQjftjqOInqOgCg4",
+            "type": "Ed25519VerificationKey2020",
+            "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
+        }
+    ],
+    "@context": [
+        "https://www.w3.org/ns/did/v1"
+    ],
+    "alsoKnownAs": [
+    ],
+    "authentication": [
+        "did:web:cdpi-poc.github.io:cdpi-did"
+    ]
+}
