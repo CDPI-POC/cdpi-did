@@ -1,0 +1,29 @@
+
+{
+  "@context": {
+    "@version": 1.1,
+    "AgriculturalProducerCredential": "https://cdpi-poc.github.io/contexts/farmer#AgriculturalProducerCredential",
+
+    "ownershipType": "https://cdpi-poc.github.io/contexts/farmer#ownershipType",
+    "gender": "https://cdpi-poc.github.io/contexts/farmer#gender",
+    "address_village": "https://cdpi-poc.github.io/contexts/farmer#address_village",
+    "address_state": "https://cdpi-poc.github.io/contexts/farmer#address_state",
+    "primaryCommodity": "https://cdpi-poc.github.io/contexts/farmer#primaryCommodity",
+    "fullName": "https://cdpi-poc.github.io/contexts/farmer#fullName",
+    "totalLandArea_value": "https://cdpi-poc.github.io/contexts/farmer#totalLandArea_value",
+    "dateOfBirth": {
+      "@id": "https://cdpi-poc.github.io/contexts/farmer#dateOfBirth",
+      "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "totalLandArea_unit": "https://cdpi-poc.github.io/contexts/farmer#totalLandArea_unit",
+    "crops": {
+      "@id": "https://cdpi-poc.github.io/contexts/farmer#crops",
+      "@container": "@set"
+    },
+    "cropName": "https://cdpi-poc.github.io/contexts/farmer#cropName",
+    "season": "https://cdpi-poc.github.io/contexts/farmer#season",
+    "farmerId": "https://cdpi-poc.github.io/contexts/farmer#farmerId",
+    "phoneNumber": "https://cdpi-poc.github.io/contexts/farmer#phoneNumber",
+    "address_district": "https://cdpi-poc.github.io/contexts/farmer#address_district"
+  }
+}
